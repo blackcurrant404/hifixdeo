@@ -58,16 +58,17 @@ li a:hover {
 
 section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     background-color:plum;
     margin-left: 9rem;
     margin-right: 9rem;
-    padding: 0 3rem 3rem;
+    padding: 0 3rem 0 3rem;
 }
 
 #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 12rem 3rem 0rem 3rem;
 }
 
@@ -81,6 +82,14 @@ section {
     display: flex;
     width: 100%;
     max-height: 500px;
+}
+
+#products {
+    display: flex;
+    background-color: burlywood;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #catalogPic{
@@ -106,53 +115,27 @@ section {
     color: grey;
     }
 
-
-
-/*
-
-body {
-    font-family: akira, monospace;
-    font-size: 100%;
-    background-color: aqua;
-}
-
-header {    
+#contacts {
     display: flex;
     background-color: aquamarine;
-    border: 1px solid red;
-    align-items: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    padding-bottom: 15rem;
+    padding-top: 3rem;
 }
 
-#logo {
+#contacts p {
+    margin: 0;
+}
+
+#contact-text {
     display: flex;
-    height: 5rem;
+    flex-direction: column;
+    width: 30%;
 }
 
-nav {
-    flex: 1;
-}
-
-ul {
+#map-box {
     display: flex;
-    flex: 1;
-    list-style-type: none;
-    width: 100%;
-    border: 1px solid rgb(13, 15, 20);
-    justify-content: space-evenly;
+    justify-content: right;
+    width: 70%;
+    max-height: 400px;
 }
 
-li a {
-    display: block;
-    color: greenyellow;
-    width: 10rem    ;
-    background-color: black;
-    text-align: center;
-    line-height: 4rem;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: darkorange;
-}
