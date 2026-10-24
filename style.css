@@ -13,8 +13,8 @@ body {
 header {
     display: flex;
     background-color: black;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
 
     position: fixed;
     top: 0;
@@ -61,23 +61,44 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: bisque;
-    padding: 7rem 1rem 1rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    background-color:plum;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    padding: 0 3rem 3rem;
 }
 
-p {
+#home {
+    padding: 12rem 3rem 0rem 3rem;
+}
+
+#home p {
     font-size: 100%;
     width: 100%;
     padding: 0rem 4rem;
-    max-width: 700px;
 }
 
 #mainImage {
     display: flex;
     width: 100%;
-    max-width: 700px;
+    max-height: 500px;
+}
+
+#catalogPic{
+    display: flex;
+    width: 100%;
+    max-height: 500px;
+}
+
+#catalog {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.productbox {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
 }
 
 
