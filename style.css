@@ -13,8 +13,14 @@ body {
 header {
     display: flex;
     background-color: black;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 #logo_box {
@@ -57,13 +63,15 @@ section {
     text-align: center;
     background-color: bisque;
     padding: 7rem 1rem 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 p {
-    font-size: 60%;
-    padding: 0rem 4rem
+    font-size: 100%;
+    width: 100%;
+    padding: 0rem 4rem;
+    max-width: 700px;
 }
 
 #mainImage {
