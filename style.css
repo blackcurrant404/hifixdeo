@@ -1,0 +1,124 @@
+@font-face {
+    font-family: akira;
+    src: url(akira.otf);
+}
+
+body {
+    margin: 0;
+    font-family: akira, monospace;
+    font-size: 100%;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#logo_box {
+    display: flex;
+    justify-content: left;
+    width: 20%;
+    height: 4rem;
+}
+
+nav {
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: greenyellow;
+    width: 10rem;
+    background-color: black;
+    text-align: center;
+    line-height: 4rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkorange;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: bisque;
+    padding: 7rem 1rem 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+p {
+    font-size: 60%;
+    padding: 0rem 4rem
+}
+
+#mainImage {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+}
+
+
+
+/*
+
+body {
+    font-family: akira, monospace;
+    font-size: 100%;
+    background-color: aqua;
+}
+
+header {    
+    display: flex;
+    background-color: aquamarine;
+    border: 1px solid red;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#logo {
+    display: flex;
+    height: 5rem;
+}
+
+nav {
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    width: 100%;
+    border: 1px solid rgb(13, 15, 20);
+    justify-content: space-evenly;
+}
+
+li a {
+    display: block;
+    color: greenyellow;
+    width: 10rem    ;
+    background-color: black;
+    text-align: center;
+    line-height: 4rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkorange;
+}
