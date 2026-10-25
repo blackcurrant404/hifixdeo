@@ -84,7 +84,7 @@ section {
     padding: 12rem 3rem 4rem 3rem;
 }
 
-#home h1{
+h1, h2, h3 {
     font-family: akira, monospace;
     color: greenyellow;
     text-shadow: 0 0 10px #090909, 
@@ -113,6 +113,10 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: left;
+}
+
+#product-header-box {
+    width: 100%;
 }
 
 #catalogPic{
@@ -144,11 +148,8 @@ section {
 }
 
 #catalog h3 {
+    font-family: roboto, monospace;
     padding: 1rem 0;
-    color: greenyellow;
-    text-shadow: 0 0 10px #090909, 
-                0 0 20px #080808, 
-                0 0 30px #0c0c0c;
 }
 
 #catalog img:hover{
@@ -179,11 +180,6 @@ section {
 }
 
 #contact-text h2 {
-    font-family: akira;
-    color: greenyellow;
-    text-shadow: 0 0 10px #090909, 
-                0 0 20px #080808, 
-                0 0 30px #0c0c0c;
     font-style: normal;
 }
 
